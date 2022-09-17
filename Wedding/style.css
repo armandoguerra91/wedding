@@ -1,0 +1,109 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+body{
+    background-color: #9999ff;
+}
+
+header{
+    text-align: center;
+}
+
+header h1{
+    font-family: 'Brush Script MT', cursive;
+    color: rgb(208, 235, 252);
+    text-align: center;
+    font-size: 100px;
+}
+
+.image-circle{
+    padding: 50px;
+    border-radius: 35%;
+    width: 40%;
+    height: auto;
+}
+.our-journey{
+    width: 60%;
+    height: auto;
+    margin-top: 5em;
+    margin-bottom: 5em
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    }
+
+.early-years{
+    width:80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    float: right;
+    border: .33em solid #0ec9bc;
+    width: 40%;
+    margin-left: 5%;
+}
+
+div {
+    margin: auto;
+    width: 90%;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40pt;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25pt;
+}
+
+main > div > article p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    line-height: 1.5;
+}
+
+.starting-family{
+    float: left;
+    border: .33em solid #0ec9bc;
+    width: 25%;
+    margin-right: 5%;
+    margin-bottom: 1em;
+}
+
+.country{
+    float: right;
+    border: .33em solid #0ec9bc;
+    width: 40%;
+    margin-left: 5%;
+}
+
+.new-home{
+    float: left;
+    border: 5px solid #0ec9bc;
+    width: 40%;
+    margin-right: 5%;
+}
+
+.engagement{
+    float: right;
+    border: .33em solid #0ec9bc;
+    width: 40%;
+    margin-left: 5%;
+}
+
+.hemingway{
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: .33em solid #0ec9bc;
+    text-align: center;
+    display: block;
+    margin-top: 1em;
+}
